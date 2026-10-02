@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ime_bg">#FFF2F3F5</color>
+    <color name="kb_bg">#FFE8EAED</color>
+    <color name="key_bg">#FFFFFFFF</color>
+    <color name="key_bg_pressed">#FFD0D3D8</color>
+    <color name="key_bg_func">#FFDDE0E4</color>
+    <color name="key_text">#FF1A1A1A</color>
+    <color name="key_text_dim">#FF8A8F99</color>
+    <color name="accent">#FF3B7CFF</color>
+</resources>
