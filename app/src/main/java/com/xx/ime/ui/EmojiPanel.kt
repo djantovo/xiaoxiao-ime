@@ -1,6 +1,8 @@
 package com.xx.ime.ui
 
 import android.content.Context
+import android.view.ViewGroup.LayoutParams.MATCH_PARENT
+import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.ArrayAdapter
 import android.widget.GridView
 import android.widget.HorizontalScrollView
@@ -12,7 +14,7 @@ import com.xx.ime.core.EmojiRepo
 import com.xx.ime.core.Prefs
 
 /** 离线 emoji 面板：最近使用 + 6 个分类 */
-class EmojiPanel(ctx: Context, private val prefs: Prefs) : LinearLayout(ctx) {
+class EmojiPanel(private val ctx: Context, private val prefs: Prefs) : LinearLayout(ctx) {
 
     interface Listener {
         fun onEmoji(e: String)
